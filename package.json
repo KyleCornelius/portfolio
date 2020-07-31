@@ -1,0 +1,31 @@
+{
+  "title": "Portfolio",
+  "version": "4.2.1",
+  "license": "(MIT OR Apache-2.0)",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "description": "Portfolio for Kyle Cornelius",
+  "keywords": [
+    "css",
+    "html",
+    "bootstrap"
+  ],
+  "author": "Kyle Cornelius",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleCornelius/Portfolio.git"
+  },
+  "dependencies": {
+    "bootstrap": "4.5",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^4.1.1",
+    "gulp": "4.0.2",
+    "merge-stream": "2.0.0"
+  },
+  "main": "gulpfile.js"
+}
