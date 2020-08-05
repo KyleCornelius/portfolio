@@ -1,11 +1,48 @@
+/* -- global -- */
+html,
+body {
+  height: 100%;
+}
+
+/* -- home page -- */
 .aboutCol {
   background: var(--lightBlack);
   color: var(--white);
 }
 
-html,
-body {
-  height: 100%;
+.card {
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+  border: 0;
+}
+
+.card-img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.card-img-wrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(48, 48, 48, 0.4);
+  opacity: 0;
+  transition: opacity .25s;
+}
+
+.card-img-wrap img {
+  transition: transform .25s;
+  width: 100%;
+}
+
+.card-img-wrap:hover img {
+  transform: scale(1.2);
+}
+
+.card-img-wrap:hover:after {
+  opacity: 1;
 }
 
 /* -- root -- */
