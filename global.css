@@ -4,8 +4,23 @@ body {
   height: 100%;
 }
 
+p {
+  max-width: 75%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.blockquote {
+  background-color: transparent;
+  border-left: 5px solid var(--hhOrange);
+  padding-right: 10px;
+}
+
 /* -- home page -- */
-.aboutCol {
+.darkTheme {
   background: var(--lightBlack);
   color: var(--white);
 }
@@ -51,4 +66,5 @@ body {
   --black: #000;
   --lightBlack: #303030;
   --lightGrey: #888b8d;
+  --hhOrange: #f87722;
 }
