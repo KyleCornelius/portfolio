@@ -14,59 +14,58 @@
 
 <body>
 
+  <!-- banner -->
   <div class="container-fluid darkTheme">
-    <div class="row">
-      <div class="col-lg-6 align-items-center justify-content-center d-flex">
-        <div class="row text-center">
-          <div class="col-12">
-            <h1>Health Hub</h1>
-          </div>
+    <div class="container py-4">
+      <div class="row align-items-center justify-content-center d-flex">
+        <div class="col-6">
+          <h1 class="text-left" style="font-size: 32px;">Health Hub</h1>
         </div>
-      </div>
+        <div class="col-6">
+          <h1 class="text-right" style="font-family: 'Apple Chancery', cursive; font-size: 18px;"><a href="/index.html"
+              style="color:white;">Kyle
+              Cornelius</a></h1>
+        </div>
 
-      <div class="col-lg-4">
-        <img src="/img/calories.png" class="img-fluid">
       </div>
     </div>
   </div>
 
+  <!-- overview -->
   <div class="container">
-    <h1>
+    <h1 class="mb-3 mt-5">
       Overview
     </h1>
     <p>
       Optum is part of a world wide healthcare organization, UnitedHealth Group. They are the largest
       single employer of doctors & nurses in the United States. Optum is constantly looking for ways track and monitor
-      patients
-      so they can improve patient health while decrease overall costs through prevention.
+      patients so they can improve patient health while decrease overall costs through prevention.
     </p>
 
     <div class="row">
       <div class="col-lg-6 col-sm-12">
-        <h1>
+        <h1 class="mb-3 mt-5">
           Challenge
         </h1>
         <p>
           The Gap. The immense gap in time between doctors visits means most doctors are working on few or no data
-          points
-          when working with a patient.
+          points when working with a patient.
         </p>
 
-        <h1>
+        <h1 class="mb-3 mt-5">
           Goal
         </h1>
         <p>
           Bridge the gap with data. Allowing doctors to see a patients IoT health data allows doctors to get a much
-          better
-          understanding of a patients health.
+          better understanding of a patients health.
           <br><br>
           Instead of doctor tracking your health say, once a year, a doctor can get access to things like: your vitals,
           blood glucose, nutrition, and stress levels at any time with millions of data points down to the minute.
         </p>
       </div>
 
-      <div class="col-lg-6 col-sm-12">
-        <img src="/img/home.png" class="img-fluid">
+      <div class="col-lg-6 col-sm-12 align-items-center justify-content-center d-flex mt-3">
+        <img src="/img/hh/home.png" class="img-fluid">
       </div>
 
     </div>
@@ -74,7 +73,7 @@
   </div>
 
   <!-- QUOTE -->
-  <div class="row my-5">
+  <div class="row m-5 pt-5">
     <div class="col-lg-4 offset-lg-4 col-xl-4 offset-xl-4">
       <blockquote class="blockquote text-center">
         <p class="mb-0">IoT devices are booming, with billions more becoming active every year</p>
@@ -82,6 +81,128 @@
     </div>
   </div>
 
+  <!-- Process -->
+  <div class="container pt-5">
+    <div class="row">
+
+      <div class="col-lg-6 col-sm-12">
+        <img src="/img/hh/hhProcess.png" class="img-fluid">
+      </div>
+
+      <div class="col-lg-6 col-sm-12">
+        <h1 class="mb-3">
+          Process
+        </h1>
+
+        <div class="accordion" id="accordionProcess">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                  data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Research
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionProcess">
+              <div class="card-body">
+                <b>Understanding</b> and <b>defining </b>the user and their needs is the first step in the process.
+                Spending the time to truly understand the problem will help to create the best design later.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Ideation & Prototype
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionProcess">
+              <div class="card-body">
+                Depending on where in the iterative process I am, I could be creating crude wireframes to start to put
+                my ideas onto paper, designing the user flow, prototyping, working on a more detailed solution, or
+                making small tweaks based on feedback. The focus is on functionality and usability. This part of the
+                process is all about the <b>creativity</b>.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Feedback & Repeat
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionProcess">
+              <div class="card-body">
+                Gaining <b>insight</b> from users is a great way to improve your design while <b>eliminating
+                  problems</b> and difficulties that were unforeseen in the design phase.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- feedback -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <h1 class="my-3">
+          Feedback
+        </h1>
+        <p>
+          During testing we found that users had trouble finding their IoT device to connect it. The process was more
+          cumbersome then initially realized, so the entire process was designed so that users now connected by service
+          instead of device type. This eliminated many of the confusing options and streamlined the progress.
+        </p>
+        </p>
+      </div>
+
+      <div class="col-lg-6 col-sm-12 mt-3">
+        <img src="/img/hh/hhfeedback.png" class="img-fluid">
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- UI Design-->
+  <div class="container my-5 pb-5">
+    <h1 class="mb-3">
+      UI Design
+    </h1>
+
+
+    <div class="container">
+
+      <div class="row text-center text-lg-left">
+
+        <div class="col-lg-6 col-md-4 mb-5 ">
+          <img class="img-fluid img-thumbnail" src="img/hh/hh1.png">
+        </div>
+        <div class="col-lg-6 col-md-4 mb-5">
+          <img class="img-fluid img-thumbnail" src="img/hh/hh2.png">
+        </div>
+        <div class="col-lg-6 col-md-4 mb-5">
+          <img class="img-fluid img-thumbnail" src="img/hh/calories.png">
+        </div>
+        <div class="col-lg-6 col-md-4">
+          <img class="img-fluid img-thumbnail" src="img/hh/hh3.png">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
 
 
   </div> <!-- JavaScript -->

@@ -19,6 +19,10 @@ h1 {
   padding-right: 10px;
 }
 
+.img-thumbnail {
+  border: 0px;
+}
+
 /* -- home page -- */
 .darkTheme {
   background: var(--lightBlack);
